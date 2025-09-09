@@ -5,9 +5,9 @@
     </head>
     <body>
 
-        <div class="flex">
-        <div>
-        <div>
+        <div class="flex w-full p-0 m-0 main">
+        <div class="w-4/5">
+        <div class="p-5">
             <h2 class="font-bold underline">About Me</h2>
             I'm a recent graduate in computer science, with a minor in Math.
             I love solving problems, be it an elusive bug in a tech stack, or getting 5 other people in the same place at the same time for weekly D&D night.
@@ -20,22 +20,46 @@
             I’m actively searching for future opportunities for new, engaging problems in the software engineering space.
         </div>
 
+        <!-- Project Cards -->
+        <div id="projects" class="p-5">
+        <h2 class="font-bold underline">Projects</h2>
         <div>
-            <h2 class="font-bold underline">Project Title</h2>
-            <p>Project Description</p>
-            <a href="#">Project Link</a>
-        </div>
+            <h2 class="font-bold underline">Tower Defense Game</h2>
+            <p>A simple tower defense game that I made so that I could learn the Godot 4.4 engine.</p>
+            <a href="https://jpwalbran.github.io/towerdefense">Project Link</a>
         </div>
 
         <div>
-        <h2 class="font-bold underline">Summary</h2>
-        <h3>John Walbran</h3>
-        <h3>Skills:</h3>
-        <p>Programming Languages</p>
+            <h2 class="font-bold underline">Babel</h2>
+            <p>A middleware tool for the Clojure language to replace error messages with interactive, visual representations through an integrated 3rd party tool, Morse by Nubank.</p>
+        </div>
+
+        </div>
+
+        </div>
+
+        <div class="w-1/5 m-5">
+        <div id="summary_card" class="border border-solid rounded-lg p-2">
+        
+        <div id="top_cols" class="flex">
+            <div id="top_col_1" class="w-1/2">
+                <h3 class="font-bold">John Walbran</h3>
+                <p>Independent Technical Consultant</p>
+                <h3 class="font-bold underline">Skills</h3>
+            </div>
+            <div id="top_col_2" class="w-1/2">
+                <img src="res/headshot.jpg" alt="Personal headshot" class="rounded-[50%] ">
+            </div>
+        </div>
+        
+        <div id="cols" class="flex w-full p-0 m-0">
+        <div id="skills_col_1">
+        <p class="font-bold">Programming Languages</p>
         <ul>
             <li>Python</li>
             <li>Java</li>
-            <li>Javascript/Typescript</li>
+            <li>Javascript</li>
+            <li>Typescript</li>
             <li>Clojure</li>
             <li>Rust</li>
             <li>C</li>
@@ -45,7 +69,9 @@
             <li>R/RStudio</li>
             <li>GDScript</li>
         </ul>
-        <p>Frameworks</p>
+        </div>
+        <div id="skills_col_2">
+        <p class="font-bold">Frameworks</p>
         <ul>
             <li>Angular</li>
             <li>Selenium</li>
@@ -53,17 +79,22 @@
             <li>JUnit</li>
             <li>Jasmine</li>
         </ul>
-        <p>Databases</p>
+        <p class="font-bold">Databases</p>
         <ul>
             <li>MongoDB</li>
             <li>SQL</li>
             <li>SQLite</li>
         </ul>
-        <p>Version Control</p>
+        <p class="font-bold">Version Control</p>
         <ul>
             <li>Git/Github</li>
             <li>Azure</li>
         </ul>
+        </div>
+        
+    </div>
+
+        </div>
     </div>
 </div>
     </body>
