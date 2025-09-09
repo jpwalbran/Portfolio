@@ -5,16 +5,28 @@
     </head>
     <body>
 
+        <div id="banner" class="flex w-full m-0 p-0">
+            <div id="banner_col_1" class="w-1/6">
+                <img src="res/headshot.jpg" alt="Personal headshot" class="rounded-[50%]">
+            </div>
+            <div id="banner_col_2" class="w-5/6">
+                <div>
+                <h1>John Walbran</h1>
+                <p>Independent Technical Consultant</p>
+                </div>
+            </div>
+        </div>
+
         <div class="flex w-full p-0 m-0 main">
         <div class="w-4/5">
         <div class="p-5">
             <h2 class="font-bold underline">About Me</h2>
             I'm a recent graduate in computer science, with a minor in Math.
             I love solving problems, be it an elusive bug in a tech stack, or getting 5 other people in the same place at the same time for weekly D&D night.
-            I thrive in novel situations, and new challenges to conquer.
+            I thrive in novel situations, and new challenges to conquer.<br>
             Probably my greatest strength is my ability to learn and adapt to new situations, because I look at things from the big picture down.
             This drive for new and exciting challenges led to me pursuing, and publishing new research papers for two different projects during my time in college, one covering error messages in the Clojure language, the other proposing a way to train LLMs to optimize compiler flags.
-            Between my last years of college, I was a QA intern with Digikey.
+            Between my last years of college, I was a QA intern with Digikey.<br>
             During that time, I was part of the team responsible for making sure that new code worked before it shipped to production.
             Beyond checking to make sure that things were up to spec, I learned the importance of paying attention to not only what the code is supposed to do, but also how it actually feels to use, and ensuring that things “feel right” when you’re the end user.
             I’m actively searching for future opportunities for new, engaging problems in the software engineering space.
@@ -23,19 +35,19 @@
         <!-- Project Cards -->
         <div id="projects" class="p-5">
         <h2 class="font-bold underline">Projects</h2>
-        <div>
+
+        <div class="border-2 p-2">
             <h2 class="font-bold underline">Tower Defense Game</h2>
             <p>A simple tower defense game that I made so that I could learn the Godot 4.4 engine.</p>
-            <a href="https://jpwalbran.github.io/towerdefense">Project Link</a>
+            <a href="https://jpwalbran.github.io/towerdefense" class="text-blue-400 hover:text-blue-600 underline">Project Link</a>
         </div>
 
-        <div>
+        <div class="border-2 p-2">
             <h2 class="font-bold underline">Babel</h2>
             <p>A middleware tool for the Clojure language to replace error messages with interactive, visual representations through an integrated 3rd party tool, Morse by Nubank.</p>
         </div>
 
         </div>
-
         </div>
 
         <div class="w-1/5 m-5">
@@ -48,7 +60,7 @@
                 <h3 class="font-bold underline">Skills</h3>
             </div>
             <div id="top_col_2" class="w-1/2">
-                <img src="res/headshot.jpg" alt="Personal headshot" class="rounded-[50%] ">
+                <img src="res/headshot.jpg" alt="Personal headshot" class="rounded-[50%]">
             </div>
         </div>
         
@@ -79,12 +91,14 @@
             <li>JUnit</li>
             <li>Jasmine</li>
         </ul>
+        <br>
         <p class="font-bold">Databases</p>
         <ul>
             <li>MongoDB</li>
             <li>SQL</li>
             <li>SQLite</li>
         </ul>
+        <br>
         <p class="font-bold">Version Control</p>
         <ul>
             <li>Git/Github</li>
