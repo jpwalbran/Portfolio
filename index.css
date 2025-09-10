@@ -7,3 +7,17 @@
     --color-p-blue: #363d47;
     --color-p-grey: #6d726d;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#all {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}

@@ -4,8 +4,8 @@
         <link rel="stylesheet" href="output.css">
     </head>
     <body>
-
-        <div id="banner" class="flex w-full m-0 p-0">
+        <div id="all" class="bg-p-dark-brown">
+        <div id="banner" class="flex w-full m-0 p-0 bg-p-green">
             <div id="banner_col_1" class="w-1/7 border-1 p-2 bg-p-green">
                 <img src="res/headshot.jpg" alt="Personal headshot" class="rounded-[50%]">
             </div>
@@ -18,8 +18,8 @@
         </div>
 
         <div class="flex w-full p-0 m-0 main">
-        <div class="w-4/5">
-        <div class="p-5">
+        <div class="w-4/5 p-5 bg-p-dark-brown">
+        <div class="p-5 border rounded-lg bg-p-light-brown">
             <h2 class="font-bold underline">About Me</h2>
             I'm a recent graduate in computer science, with a minor in Math.
             I love solving problems, be it an elusive bug in a tech stack, or getting 5 other people in the same place at the same time for weekly D&D night.
@@ -33,16 +33,16 @@
         </div>
 
         <!-- Project Cards -->
-        <div id="projects" class="p-5">
+        <div id="projects" class="p-5 border rounded-lg m-1 bg-p-blue">
         <h2 class="font-bold underline">Projects</h2>
 
-        <div class="border border-solid rounded-md p-2 m-1">
+        <div class="border border-solid rounded-md p-2 m-1 bg-p-grey">
             <h2 class="font-bold underline">Tower Defense Game</h2>
             <p>A simple tower defense game that I made so that I could learn the Godot 4.4 engine.</p>
             <a href="https://jpwalbran.github.io/towerdefense" class="text-blue-400 hover:text-blue-600 underline">Project Link</a>
         </div>
 
-        <div class="border border-solid rounded-md p-2 m-1">
+        <div class="border border-solid rounded-md p-2 m-1 bg-p-grey">
             <h2 class="font-bold underline">Babel</h2>
             <p>A middleware tool for the Clojure language to replace error messages with interactive, visual representations through an integrated 3rd party tool, Morse by Nubank.</p>
         </div>
@@ -50,8 +50,8 @@
         </div>
         </div>
 
-        <div class="w-1/5 m-5">
-        <div id="summary_card" class="border border-solid rounded-lg p-2">
+        <div class="w-1/5 bg-p-dark-brown">
+        <div id="summary_card" class="border border-solid rounded-lg p-2 m-5 bg-p-grey">
         
         <div id="top_cols" class="flex">
             <!--
@@ -113,6 +113,7 @@
 
         </div>
     </div>
+</div>
 </div>
     </body>
 </html>
