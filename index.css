@@ -6,6 +6,8 @@
     --color-p-light-brown: #7d684c;
     --color-p-blue: #363d47;
     --color-p-grey: #6d726d;
+
+    --breakpoint-lg: 61.5rem;
 }
 
 body {
