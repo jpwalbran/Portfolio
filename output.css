@@ -9,6 +9,7 @@
       "Courier New", monospace;
     --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-blue-600: oklch(54.6% 0.245 262.881);
+    --color-blue-800: oklch(42.4% 0.199 265.638);
     --spacing: 0.25rem;
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
@@ -26,8 +27,8 @@
     --color-p-green: #6e6c48;
     --color-p-dark-brown: #2a1d14;
     --color-p-light-brown: #7d684c;
-    --color-p-blue: #363d47;
-    --color-p-grey: #6d726d;
+    --color-p-blue: #464d67;
+    --color-p-grey: #8d948d;
   }
 }
 @layer base {
@@ -255,8 +256,8 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
-  .text-blue-400 {
-    color: var(--color-blue-400);
+  .text-blue-800 {
+    color: var(--color-blue-800);
   }
   .underline {
     text-decoration-line: underline;
@@ -285,16 +286,6 @@
       display: flex;
     }
   }
-  .max-sm\:w-1\/5 {
-    @media (width < 40rem) {
-      width: calc(1/5 * 100%);
-    }
-  }
-  .max-sm\:w-4\/5 {
-    @media (width < 40rem) {
-      width: calc(4/5 * 100%);
-    }
-  }
   .max-sm\:p-0 {
     @media (width < 40rem) {
       padding: calc(var(--spacing) * 0);
@@ -315,19 +306,9 @@
       width: calc(1/4 * 100%);
     }
   }
-  .sm\:w-1\/7 {
-    @media (width >= 40rem) {
-      width: calc(1/7 * 100%);
-    }
-  }
   .sm\:w-3\/4 {
     @media (width >= 40rem) {
       width: calc(3/4 * 100%);
-    }
-  }
-  .sm\:w-6\/7 {
-    @media (width >= 40rem) {
-      width: calc(6/7 * 100%);
     }
   }
   .sm\:p-2 {
